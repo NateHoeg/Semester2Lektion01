@@ -19,4 +19,9 @@ public class Movie {
         this.rating = rating;
         this.cast = cast;
     }
+
+    @Override
+    public String toString() {
+        return title + " " + productionYear + " " + director + " " + genres + " " + rating + " " + cast;
+    }
 }

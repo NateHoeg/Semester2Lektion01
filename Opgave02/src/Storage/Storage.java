@@ -14,6 +14,11 @@ public class Storage {
     public void addMovie(Movie movie) {
         movies.add(movie);
     }
+    public void printMovies() {
+        for (Movie movie : movies) {
+            System.out.println(movie.toString());
+        }
+    }
 
     public void addActor(Actor actor) {
         actors.add(actor);
@@ -21,5 +26,10 @@ public class Storage {
 
     public void addTVSerie(TVSerie serie) {
         series.add(serie);
+    }
+    public void printTvSeries() {
+        for (TVSerie tvSerie : series) {
+            System.out.println(tvSerie);
+        }
     }
 }

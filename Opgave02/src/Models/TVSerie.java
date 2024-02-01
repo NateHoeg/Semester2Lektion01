@@ -14,4 +14,9 @@ public class TVSerie {
         this.genres = genres;
         this.cast = cast;
     }
+
+    @Override
+    public String toString() {
+        return title + " " + numberOfSeasons + " " + genres + " " + cast;
+    }
 }
